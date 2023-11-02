@@ -4,6 +4,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Home from './components/Home'
 import Portfolio from './components/Portfolio'
+import Top from './components/shared/Top'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Portfolio/>
       <Contact/>
       <Footer/>
+      <Top/>
     </main>
   )
 }

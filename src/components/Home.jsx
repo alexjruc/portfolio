@@ -4,7 +4,7 @@ import { CloseMenuIcon, OpenMenuIcon } from "./icons/Svgs";
 const Home = () => {
     const [isShowMenu, setIsShowMenu] = useState(false);
     return (
-        <section className="max-w-[1000px] mx-auto">
+        <section className="max-w-[1000px] mx-auto ">
             <header id="home" className="">
                 <nav className="text-white h-20 font-semibold flex justify-between px-6 items-center">
                     <a href="#home">
