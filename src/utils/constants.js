@@ -41,6 +41,12 @@ const technologies = [
         image: "/imageTechnologies/reactRouter.svg",
         shadow: "shadow-[#e11d48]",
     },
+    {
+        id: 8,
+        name: "Vite",
+        image: "/imageTechnologies/viteJs.svg",
+        shadow: "shadow-[#7c3aed]",
+    },
 ];
 
 const projects = [
