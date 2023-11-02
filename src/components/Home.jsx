@@ -42,16 +42,16 @@ const Home = () => {
                             </button>
                             <ul className="grid gap-12 sm:block ">
                                 <li>
-                                    <a href="#home">Home</a>
+                                    <a href="#home" onClick={() => setIsShowMenu(false)}>Home</a>
                                 </li>
                                 <li>
-                                    <a href="#about">About</a>
+                                    <a href="#about" onClick={() => setIsShowMenu(false)}>About</a>
                                 </li>
                                 <li>
-                                    <a href="#portfolio">Portfolio</a>
+                                    <a href="#portfolio" onClick={() => setIsShowMenu(false)}>Portfolio</a>
                                 </li>
                                 <li>
-                                    <a href="#contact">Contact</a>
+                                    <a href="#contact" onClick={() => setIsShowMenu(false)}>Contact</a>
                                 </li>
                             </ul>
                         </div>
