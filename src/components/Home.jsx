@@ -19,7 +19,7 @@ const Home = () => {
                                 <a href="#about">About</a>
                             </li>
                             <li>
-                                <a href="#portfolio">Portfolio</a>
+                                <a href="#projects">Projects</a>
                             </li>
                             <li>
                                 <a href="#contact">Contact</a>
@@ -48,7 +48,7 @@ const Home = () => {
                                     <a href="#about" onClick={() => setIsShowMenu(false)}>About</a>
                                 </li>
                                 <li>
-                                    <a href="#portfolio" onClick={() => setIsShowMenu(false)}>Portfolio</a>
+                                    <a href="#projects" onClick={() => setIsShowMenu(false)}>Projects</a>
                                 </li>
                                 <li>
                                     <a href="#contact" onClick={() => setIsShowMenu(false)}>Contact</a>
@@ -66,9 +66,9 @@ const Home = () => {
             </header>
             <section className="w-full h-[calc(100vh-80px)] flex  flex-col-reverse justify-center items-center gap-6">
                 <h1 className="text-white text-5xl text-center ">
-                    Fronted Developer
+                    Full Stack Developer
                 </h1>
-                <picture className="shadow-lg shadow-blue-300">
+                <picture className="drop-shadow-[2px_2px_16px_rgb(96_165_250)]">
                     <img src="/images/image.svg" alt="" />
                 </picture>
             </section>

@@ -9,7 +9,7 @@ const Footer = () => {
                     <Link to={"https://www.instagram.com/"} target="_blank"><InstagranIcon/></Link>
                 </li>
                 <li>
-                    <Link to={"https://www.linkedin.com/in/alex-uc-821578294/"} target="_blank"><LinkedinIcon/></Link>
+                    <Link to={"https://www.linkedin.com/in/alex-uceda-cachay-821578294/"} target="_blank"><LinkedinIcon/></Link>
                 </li>
                 <li>
                     <Link to={"https://github.com/alexjruc"} target="_blank"><GitHubIcon/></Link>

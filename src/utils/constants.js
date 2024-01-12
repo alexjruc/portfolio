@@ -47,6 +47,36 @@ const technologies = [
         image: "/imageTechnologies/viteJs.svg",
         shadow: "shadow-[#7c3aed]",
     },
+    {
+        id: 9,
+        name: "Node",
+        image: "/imageTechnologies/node.svg",
+        shadow: "shadow-[#3ad44f]",
+    },
+    {
+        id: 10,
+        name: "Express",
+        image: "/imageTechnologies/express.svg",
+        shadow: "shadow-[#e3e7e9]",
+    },
+    {
+        id: 11,
+        name: "Sequelize",
+        image: "/imageTechnologies/sequelize.svg",
+        shadow: "shadow-[#2fb2fd]",
+    },
+    {
+        id: 12,
+        name: "Postman",
+        image: "/imageTechnologies/postman.svg",
+        shadow: "shadow-[#eb6b15]",
+    },
+    {
+        id: 13,
+        name: "Github",
+        image: "/imageTechnologies/github.svg",
+        shadow: "shadow-[#ffffff]",
+    },
 ];
 
 const projects = [
