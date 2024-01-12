@@ -19,7 +19,7 @@ const About = () => {
             </p>
             <div className="grid gap-8 p-8 pb-10">
                 <h3 className="text-lg font-semibold pb-10">Technologies</h3>
-                <ul className="grid gap-8 justify-center grid-cols-[repeat(auto-fit,_120px)]">
+                <ul className="grid gap-8 justify-center grid-cols-[repeat(auto-fit,_100px)]">
                     {technologies.map((technologie) => (
                         <TecchnologieCard
                             key={technologie.id}
@@ -28,9 +28,9 @@ const About = () => {
                     ))}
                 </ul>
             </div>
-            <div className="grid gap-8 p-8 pb-10">
-                <h3 className="text-lg font-semibold pb-10">Soft skills</h3>
-                <ul className="grid gap-12 justify-center grid-cols-[repeat(auto-fit,_200px)]">
+            <div className="grid gap-8 p-8 ">
+                <h3 className="text-lg font-semibold">Soft skills</h3>
+                <ul className="grid gap-8 justify-center grid-cols-[repeat(auto-fit,_240px)]">
                     <li className="grid grid-cols-2 items-center gap-2">
                         Perseverance
                         <img src="/images/perseverance.svg" alt="" />
@@ -53,9 +53,9 @@ const About = () => {
                     </li>
                 </ul>
             </div>
-            <div className="grid gap-4 p-8 pb-10">
-                <h3 className="text-lg font-semibold pb-10">Languages</h3>
-                <ul className="grid gap-8 place-items-center grid-cols-[repeat(auto-fit,_240px)]">
+            <div className="grid gap-4 p-8">
+                <h3 className="text-lg font-semibold pb-6">Languages</h3>
+                <ul className="grid gap-4 grid-cols-2 place-items-center">
                     <li>Spanish : Native</li>
                     <li>English : B1</li>
                 </ul>
