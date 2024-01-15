@@ -31,23 +31,23 @@ const About = () => {
             <div className="grid gap-8 p-8 ">
                 <h3 className="text-lg font-semibold">Soft skills</h3>
                 <ul className="grid gap-8 justify-center grid-cols-[repeat(auto-fit,_240px)]">
-                    <li className="grid grid-cols-2 items-center gap-2">
+                    <li className="grid grid-cols-2 items-center">
                         Perseverance
                         <img src="/images/perseverance.svg" alt="" />
                     </li>
-                    <li className="grid grid-cols-2 items-center gap-2">
+                    <li className="grid grid-cols-2 items-center">
                         Curiosity
                         <img src="/images/curiosity.svg" alt="" />
                     </li>
-                    <li className="grid grid-cols-2 items-center gap-2">
+                    <li className="grid grid-cols-2 items-center">
                         Teamwork
                         <img src="/images/teamwork.svg" alt="" />
                     </li>
-                    <li className="grid grid-cols-2 items-center gap-2">
+                    <li className="grid grid-cols-2 items-center">
                         Adaptability
                         <img src="/images/adaptability.svg" alt="" />
                     </li>
-                    <li className="grid grid-cols-2 items-center gap-2">
+                    <li className="grid grid-cols-2 items-center">
                         Time management
                         <img src="/images/TimeManagement.svg" alt="" />
                     </li>

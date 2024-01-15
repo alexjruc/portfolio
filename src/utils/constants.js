@@ -114,7 +114,7 @@ const projects = [
     },
     {
         id: 5,
-        name: "Podédex",
+        name: "Pokédex",
         image: "/imageProjects/pokedex.png",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt in quibusdam incidunt eaque. Molestias rem sapiente, officia nemo laboriosam officiis aliquam ullam recusandae maxime quae, praesentium cupiditate asperiores atque impedit.",
         url : "https://pokedex-auc.netlify.app/",
@@ -127,6 +127,14 @@ const projects = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt in quibusdam incidunt eaque. Molestias rem sapiente, officia nemo laboriosam officiis aliquam ullam recusandae maxime quae, praesentium cupiditate asperiores atque impedit.",
         url : "https://gift-music-ac.netlify.app/",
         repository: "https://github.com/alexjruc/giftMusic"
+    },
+    {
+        id: 7,
+        name: "API Meals",
+        image: "/imageProjects/API_meals.png",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt in quibusdam incidunt eaque. Molestias rem sapiente, officia nemo laboriosam officiis aliquam ullam recusandae maxime quae, praesentium cupiditate asperiores atque impedit.",
+        url : "https://github.com/alexjruc/ACADEMLO-MEALS",
+        repository: "https://github.com/alexjruc/ACADEMLO-MEALS"
     },
 ];
 
