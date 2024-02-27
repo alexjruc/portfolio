@@ -4,10 +4,10 @@ import { CloseMenuIcon, OpenMenuIcon } from "./icons/Svgs";
 const Home = () => {
     const [isShowMenu, setIsShowMenu] = useState(false);
     return (
-        <section className="max-w-[1000px] mx-auto ">
-            <header id="home" className="">
-                <nav className="text-white h-20 font-semibold flex justify-between px-6 items-center">
-                    <a href="#home">
+        <section id="home" className="max-w-[1000px] mx-auto pb-12">
+            <header className="fixed top-0 right-0 left-0 max-w-[1000px] mx-auto z-[100]">
+                <nav className=" text-white bg-white/20 h-20 font-semibold flex items-center justify-between  px-6">
+                    <a href="#home" className="">
                         <img src="/images/logo.svg" alt="" />
                     </a>
                     <div className="hidden sm:inline-block">
@@ -65,7 +65,7 @@ const Home = () => {
                 </nav>
             </header>
             <section className="w-full h-[calc(100vh-80px)] flex  flex-col-reverse justify-center items-center gap-6">
-                <h1 className="text-white text-5xl text-center ">
+                <h1 className="text-white text-5xl text-center relative before:absolute before:inset-0 before:bg-black before:animate-typewriter after:absolute after:inset-0 after:w-[5px] after:animate-caret after:bg-white">
                     Full Stack Developer
                 </h1>
                 <picture className="drop-shadow-[2px_2px_16px_rgb(96_165_250)]">

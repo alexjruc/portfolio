@@ -5,11 +5,11 @@ const About = () => {
     return (
         <section
             id="about"
-            className="p-6 pb-14 grid gap-6 text-white max-w-[1000px] mx-auto"
+            className="p-6 pt-20 grid gap-6 text-white max-w-[1000px] mx-auto"
         >
             <h2 className="text-2xl font-semibold p-4">About</h2>
             <p className="text-justify px-10 ">
-                Hello, my name is Alex, passionate and dedicated junior fronted
+                Hello, my name is Alex, passionate and dedicated junior full stack
                 developer with solid foundations in the fundamentals and
                 technologies of web development, excited to learn more every day
                 and create new projects that are attractive and functional,
